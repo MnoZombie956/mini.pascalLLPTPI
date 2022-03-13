@@ -1,0 +1,13 @@
+program _while;
+
+var a;
+
+begin
+  a:=0;
+  while a<10 do 
+  begin 
+    write('Hello World ');
+    writeln(a);
+    a:=a+1
+  end
+end.

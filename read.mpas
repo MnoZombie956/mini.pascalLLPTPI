@@ -1,0 +1,10 @@
+program _read;
+
+var a,b;
+
+begin 
+  a:='teste';
+  b:=5;
+  writeln(a+5)
+
+end.

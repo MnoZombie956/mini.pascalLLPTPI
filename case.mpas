@@ -1,0 +1,18 @@
+program _case;
+var a,b;
+begin 
+a := 2;
+b := 5;
+case a of 
+  1: writeln('dudu');
+  2: writeln('cagao');
+  3: writeln('cabecudo');
+  end;
+case b of 
+  0: writeln('dudu');
+  2: writeln('cagao');
+  7: writeln('cabecudo');
+else
+  writeln('entrou no else do segundo kkkk');
+end
+end.
