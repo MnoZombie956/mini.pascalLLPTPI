@@ -1,0 +1,20 @@
+#ifndef NOT_BOOL_EXPR_H
+#define NOT_BOOL_EXPR_H
+
+#include "BoolExpr.h"
+
+class NotBoolExpr : public BoolExpr {
+	public:
+		NotBoolExpr(int line, BoolExpr* expr);
+		virtual ~NotBoolExpr();
+
+    int getLine() const { return BoolExpr::getLine(); }
+
+		virtual bool expr();
+
+	private:
+		BoolExpr* _expr;
+
+};
+
+#endif
