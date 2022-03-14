@@ -69,6 +69,15 @@ Enter the three sizes of the triangle: 0 0 0
 (0, 0, 0) is an invalid triangle
 ```
 
+### Interpreting Errors
+| Error Type | Msg               |
+|:----------:|:-----------------:|
+| Lexical    | Invalid Lexeme    |
+| Sintatic   | Unexpected Lexeme |
+|            | Unexpected EOF    |
+| Semantics  | Invalid Operation |
+|            | Unexpected EOF    |
+
 ### Project Planning
 ![fsm](https://github.com/MnoZombie956/mini.pascalLLPTPI/blob/main/imgs/fsm_lexical.png?raw=false)
 ![classes](https://github.com/MnoZombie956/mini.pascalLLPTPI/blob/main/imgs/class_diagram.png?raw=false)
